@@ -1,0 +1,28 @@
+#div1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 60px;
+    padding: 10px;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    /* transform: translate(100px, -60px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(200px); */
+    /* transform: rotate(65deg); */
+    /* transform: scale(0); zhduket */
+    /* transform: scale(-1); pasqyrohet */
+    /* transform: scale(2); dyfishohet */
+    /* transform: scale(3,2);
+    transform: scaleX();
+    transform: scaleY(); */
+    /* transform: skew(20deg); */
+    transform: matrix(2, 3, 1, 1, 80, 80)
+}
+

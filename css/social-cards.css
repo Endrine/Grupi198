@@ -1,0 +1,103 @@
+body{
+    background-color: #D7D7D7;
+}
+
+.card-1{
+    width: 344px;
+    height: 672px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.title-price{
+    padding: 20px;
+    font-size: 50px;
+}
+
+span{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+
+.main-img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 26px;
+    top: -15px;
+
+}
+
+.basic{
+    color: #F3B10E;
+    position: relative;
+    left: 26px;
+}
+
+.text1{
+    position: relative;
+    font-size: 16px;
+    left: 26px;
+}
+
+.img1{
+    position: relative;
+    left: 26px;
+    top: 10px;
+}
+
+.text2{
+    position: relative;
+    left: 50px;
+    top: -26px;
+}
+
+.img2{
+    position: relative;
+    left: 26px;
+    top: -10px;
+}
+
+.text3{
+    position: relative;
+    left: 50px;
+    top: -45px;
+}
+
+.img3{
+    position: relative;
+    left: 26px;
+    top: -20px;
+}
+
+.text4{
+    position: relative;
+    left: 50px;
+    top: -57px;
+}
+
+
+.img4{
+    position: relative;
+    left: 26px;
+    top: -25px;
+}
+
+.text5{
+    position: relative;
+    left: 50px;
+    top: -60px;
+}
+
+.btn{
+    width: 264px;
+    height: 48px;
+    background-color: #EBECED;
+    border: 1px solid #EBECED;
+    border-radius: 8px;
+    position: relative;
+    top: -48px;
+    left: 26px;
+}
+

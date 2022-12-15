@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/forms.css">
+</head>
+<body>
+   <form action="">
+
+    
+    <br>
+    <input type="color">
+    <br>
+    <input type="password">
+    <br>
+    <input type="file">
+    <br>
+    <input type="date">
+    <br>
+    <input type="range">
+    <br>
+
+    <!-- input text -->
+    <label for="first_name">Emri juaj:</label>
+    <input type="text" 
+    placeholder="Emri juaj"
+    name="first_name"
+    id="first_name"
+    >
+
+<!-- input radio buttons -->
+
+    <label for="gender">Female</label>
+    <input type="radio" value="female" name="gender" id="female" checked>
+
+    <label for="gender">Male</label>
+    <input type="radio" value="male" name="gender" id="male">
+
+
+    <br>
+    <label for="">Biografia juaj: </label>
+    <textarea name="biografi" id="biografi" cols="30" rows="10"></textarea>
+    <br>
+
+    <!-- input checkboxes -->
+    <br>
+    <label for="">Favorite programming languages</label>
+    <br>
+
+    <input type="checkbox" value="javascript" name="javascript" id="javascript" checked>
+    <label for="">Javascript</label>
+    <br>
+
+    <input type="checkbox" value="python" name="python" id="python" checked>
+    <label for="">Python</label>
+    <br>
+
+    <input type="checkbox" value="c++" name="c++" id="c++">
+    <label for="">C++</label>
+    <br>
+    <br>
+
+    <!-- dropdown list -->
+    <!-- multiple - selektojme me shume opsione ne liste -->
+    <label for="">Zgjedhe trajnimin:</label>
+    <select name="trajnim" id="trajnim" multiple>
+        <option value="football">Football</option>
+        <option value="muzike">Muzike</option>
+        <option value="kodim">Kodim</option>
+        <option value="basketboll">Basketboll</option>
+    </select>
+
+    
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+
+
+    <!-- vazhdim css forms -->
+    <a href="#">Pseudoklasat</a>
+
+   </form> 
+
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color:#95A3B4;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-left: 9%;
+}
+
+.header-title{
+    color: black;
+}
+
+.header-welcome{
+    margin: 0;
+}
+
+.right-header{
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+}
+
+.header-icon{
+    box-shadow: 0px 7px 30px -10px rgba(132, 164, 180, 0.7);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-photo{
+    width: 62px;
+    height: 62px;
+}
+
+/* simboli > - child selector */
+
+.right-header > div{
+    margin: 0 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 501px;
+    height: 83px;
+    left: 135px;
+    top: 254px;
+    box-sizing: border-box;
+}
+
+.recent-title{
+    font-weight: 900;
+    color: black;
+    font-size: 22px;
+
+}
+
+.recent-date{
+    font-weight: 900;
+    color: black;
+    font-size: 17px;
+}
+
+.expense-item{
+    box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.3);
+    border-radius: 14px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.expense.title{
+    font-size: 17px;
+    color: black;
+    font-weight: 900;
+}
+.expense-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}

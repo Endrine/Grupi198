@@ -1,0 +1,37 @@
+/* variablat globale brenda :root selektorit */
+
+:root{
+    --prapavija: grey;
+    --ngjyrakryesore: orange;
+    --ngjyrasekondare: rgb(33, 30, 30);
+    --madhesiaShkronjave: 20px;
+}
+
+/* body{
+    background-color: var(--prapavija);
+}
+
+h1{
+    color: var(--ngjyrakryesore);
+    font-size: var(--madhesiaShkronjave);
+}
+
+p{
+    color: var(--ngjyrasekondare);
+    font-size: var(--madhesiaShkronjave);
+} */
+
+
+.container{
+    background-color: var(--prapavija);
+    color: var(--ngjyrakryesore);
+    padding: 15px;
+}
+
+h2{
+    border-bottom: 1px solid var(--ngjyrasekondare);
+}
+
+button{
+    color: var(--ngjyrakryesore);
+}

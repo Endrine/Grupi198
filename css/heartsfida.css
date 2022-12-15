@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart::before,
+.heart::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.heart::before{
+    top: 0;
+    left: -75px;
+}
+
+.heart::after{
+    top: -75px;
+    left: 0;    
+}
+
+
+
+.heart{
+    width: 150px;
+    height: 150px;
+    background-color: #e74456;
+    position: relative;
+    /* margin: 0 10px; */
+    animation: zemra 1s ease infinite;
+}
+
+@keyframes zemra{
+    0%{transform: rotate(45deg) scale(0.5);}
+    50%{transform: rotate(45deg) scale(1.5);}
+    100%{transform: rotate(45deg) scale(0.5);}
+}

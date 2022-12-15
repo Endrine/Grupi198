@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 90vh;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-color: #02044a;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+}
+
+.left{
+    width: 60%;
+    float: left;
+    vertical-align: middle;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.right{
+    width: 40%;
+    float: right;
+    vertical-align: middle;
+}
+

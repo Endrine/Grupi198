@@ -1,0 +1,36 @@
+/* p::first-line{
+    background-color: darkgreen;
+    color: chocolate;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+} */
+
+/* .description::before{
+    content: "para";
+    color: blue;
+}
+
+.description::after{
+    content:"pas";
+    color: brown;
+} */
+
+.description:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    display: inline-block;
+}
+
+.description:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}

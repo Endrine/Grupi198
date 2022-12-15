@@ -1,0 +1,43 @@
+.box{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background-color: lightblue;
+}
+
+/* .orange{
+    background-color: orange;
+    position: relative;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+
+} */
+
+/* .blue{
+    background-color: blue;
+} */
+
+/* .child{
+    position: absolute;
+    right: 150px;
+    bottom: 150px;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+
+} */
+
+
+.fixed-position{
+    height: 40px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    opacity: 70%;
+}

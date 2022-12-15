@@ -1,0 +1,17 @@
+p{
+    /* letter-spacing: -2px; hapesire ndermjet shkronjave */
+    /* word-spacing: 15px; hapesire ndermjet fjaleve*/
+    /* text-indent: 30px; zhvendos vetem rreshtin e pare */
+    /* text-align: left,right,center,justify; */
+    /* text-decoration: overline; */
+    /* text-transform: lowercase, uppercase,capitalize; */
+    /* line-height: 50px; */
+    font-family: 'Macondo', cursive;
+    font-size: 35px;
+}
+
+
+h1{
+    font-family:'Smooch', cursive;;
+}
+

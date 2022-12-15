@@ -1,0 +1,58 @@
+/* selektori ylli(*) */
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+/* selektori p.emri */
+/* p.emri{
+    background-color: red;
+} */
+
+/* selektori (,) */
+/* p,
+.emri,
+a{
+    color: yellow;
+} */
+
+/* selektori div p */
+/* div p,
+div h1 {
+    background-color: aquamarine;
+} */
+
+/* selektori div > h1 */
+/* div > h1,
+div >p {
+    color: blueviolet;
+} */
+
+/* selektori (div + p) stilizon vetem elementin e pare jashta div-it */
+/* div + p{
+    color: brown;
+} */
+
+/* selektori ul ~ p */
+
+/* p ~ ul {
+    background-color: brown;
+} */
+
+/* selektori first-child */
+/* p:first-child{
+    color: blue;
+} */
+
+p:nth-child(3){
+    color: blueviolet;
+}
+
+p:nth-of-type(odd){
+background-color: black;
+}
+
+p:nth-of-type(even){
+    background-color: brown;
+
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: rgb(176, 95, 95);
+}
+
+.box3{
+    background-color: rgb(100, 100, 188);
+}
+
+.box4{
+    background-color: rgb(132, 211, 132);
+}
+
+.box5{
+    background-color: rgb(231, 39, 39);
+}
+
+.box6{
+    background-color: rgb(212, 212, 121);
+}
